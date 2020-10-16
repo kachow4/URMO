@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navigation{
+    background-color: white;
+    max-width: 1300px;
+    margin: auto;
+    height: 80px;
+    font-size: 17px;
+}
+
+ul.pages{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul.pages li{
+    display: inline-block;
+}
+
+ul.pages li a{
+    text-decoration: none;
+    padding: 5px 20px;
+    color: black;
+    /* transition: 0.4s ease; */
+}
+
+ul.pages li a:hover{
+    border-bottom: 1px solid black;
+}
+
+ul.pages li.active a{
+    border-bottom: 1px solid black;
+}
+
+.logo img{
+    margin-top: 10px;
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+
+header{
+    max-width: 1300px;
+    margin: auto;
+    height: 170vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main{
+   text-align: center;
+   font-size: 20px;
+   margin-top: 80px;
+}
+
+.FAQ{
+    text-align: left;
+}
+
+ul.auditions li{
+    text-decoration: none;
+    padding: 0px 20px;
+}
+
+.name{
+    font-size: 50px;
+    text-align: center;
+    padding: 70px;
+}
+
+.info{
+    max-width: 1300px;
+    margin: auto;
+}
+
+ul.info {
+    float: left;
+    list-style-type: none;
+    margin-top: 25px;
+    font-size: 20px;
+    padding: 70px;
+}
+
+ul.info li{
+    padding: 7px;
+    font-size: 15px;
+}
+
+ul.info li a{
+    text-decoration: none;
+    color: black;
+}
+
+ul.info a:hover{
+    border-bottom: 1px solid black;
+}
+
+.social{
+    float: left;
+    list-style-type: none;
+    margin-top: 25px;
+    font-size: 20px;
+    padding: 70px;
+
+}
+
+.social a{
+    text-decoration: none;
+}
+
+.social a img {
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+}
+
+.bottomLogo img{
+    margin-top: 100px;
+    float: right;
+    height: 200px;
+    width: 200px;
+}
+/* .copyright{
+    margin-top: 410px;
+    margin-bottom: 50px;
+    font-size: 12px;
+    text-align: center;
+} */
